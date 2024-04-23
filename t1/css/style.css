@@ -1,0 +1,366 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul{width: 100%;
+	z-index: 2;
+	position: fixed;
+}
+.menu  {background-color:#F6F8F9;
+	display: flex;
+	justify-content: center;
+	min-height: 70px;
+	align-items: center;
+	flex-wrap: wrap; 
+	text-align: center;
+}
+.menu a{
+	text-decoration: none;
+}
+	.menu>li{
+		list-style: none;
+		padding: 0 40px;
+	}
+	.menu>li>.mm{
+		color:#787877;
+	}
+	
+	.menu>li>.mmm{
+	color: #92DCD3
+	}
+.menu>li>.mm:hover{
+	color:#92DCD3;
+}
+ul{padding-left: 50px;
+	vertical-align: top;
+	
+}
+
+.d2{background-image: url(../nkar/nkar1.jpg);
+	background-repeat:no-repeat;
+	width: 100%;
+	min-height: 900px;
+	background-size:cover;
+	text-align: center;
+	
+}
+.s1{top: 380px;
+	padding-top: 300px;
+	font-size: 83px;
+	color: white;
+
+	
+}
+.s2{font-family: cursive;
+	color: white;
+	padding-top: 18px;
+	text-align: center;
+	top: 470px;
+	
+	font-size: 51px;
+	
+}
+
+.d3{background-image: url(https://static.wixstatic.com/media/ea71bb_ee68c0ed17a44488ba505a1741edc103~mv2_d_4350_3773_s_4_2.png/v1/fill/w_648,h_568,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_ee68c0ed17a44488ba505a1741edc103~mv2_d_4350_3773_s_4_2.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+	background-color: #A3E4D7;
+
+}
+.d4{
+	
+	width: 300px;
+	height: 300px;
+	border: solid 8px white;
+	color: white;
+	font-size: 45px;
+	
+}
+.bb:hover{
+	background-color: #A3E4D7;
+	color: white;
+}
+.d5{width: 350px;
+	min-width: 250px;
+	
+	
+	padding-left: 50px;
+	color: white;
+	font-size: 20px;
+}
+.bb{
+	width: 125px;
+	min-height: 40px;
+	font-size: 15px;
+	background-color:  white;
+	color:  #A3E4D7;
+	text-align: center;
+}
+.p2{display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image:url(../nkar/nkar2.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: white;
+	width: 100%;
+	min-height: 800px;
+
+
+}
+
+.b1{
+	background-color: #A3E4D7;
+}
+.b1:hover h3{
+	opacity: 0;
+
+}
+.b2{
+	background-color:#48C9B0;
+}
+.b2:hover h3{
+	opacity: 0;
+}
+.b3{
+	background-color: #17A589;
+}
+.b3:hover h3{
+	opacity: 0;
+
+}
+.b1,.b2,.b3{
+	border: 8px solid white;
+	width: 750px;
+	text-align: center;
+	min-height: 30px;
+	
+	font-size: 35px;
+	padding: 20px;
+}
+.d7{position: relative;
+	
+	font-size: 12px;
+}
+.i1{
+	position: absolute;
+	height: 400px;
+	width: 34%;
+	text-align: center;
+	background-image: url(../nkar/ccc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.t1 {width: 100%;
+	height: 100%;
+	background-color: rgba(115, 198, 182,0.5);
+	padding-top: 120px;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.i1:hover  .t1{opacity: 1;
+}
+.i2{
+	position: absolute;
+	left: 33.36%;
+	height: 400px;
+	width: 33.3%;
+	text-align: center;
+	background-image: url(../nkar/a2588bad8bae4b7c92d916eb366e6aac.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+
+}
+.t2{width: 100%;
+	height: 100%;
+	background-color: rgba(115, 198, 182,0.5);
+	padding-top: 120px;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.i2:hover .t2{opacity: 1;
+}
+
+.i3{
+	position: absolute;
+	left: 66.6%;
+	height: 400px;
+	width: 33.3%;
+	text-align: center;
+	background-image: url(../nkar/e51b57b34fb642dbb8fb9c4f060be885.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+}
+.t3{width: 100%;
+	height: 100%;
+	background-color: rgba(115, 198, 182,0.5);
+	padding-top: 120px;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.i3:hover .t3{opacity: 1;
+}
+.i4{
+	position: absolute;
+	top: 350px;
+	width: 33.3%;
+	height: 400px;
+	text-align: center;
+	background-image: url(../nkar/nk1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+}
+.t4{width: 100%;
+	height: 100%;
+	background-color: rgba(115, 198, 182,0.5);
+	padding-top: 120px;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.i4:hover .t4{opacity: 1;
+}
+.i5{
+	position: absolute;
+	top: 350px;
+	left: 33.3%;
+	height: 400px;
+	width: 33.3%;
+	text-align: center;
+	background-image: url(../nkar/nk2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+
+}
+.t5{width: 100%;
+	height: 100%;
+	background-color: rgba(115, 198, 182,0.5);
+	padding-top: 120px;
+	opacity: 0;
+
+	box-sizing: border-box;
+}
+.i5:hover .t5{opacity: 1;
+}
+.i6{
+	position: absolute;
+	top: 350px;
+	left: 66.6%;
+	height: 400px;
+	width: 33.3%;
+	text-align: center;
+	background-image: url(../nkar/nk3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+
+}
+.t6{width: 100%;
+	height: 100%;
+	background-color: rgba(115, 198, 182,0.5);
+	padding-top: 120px;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.i6:hover .t6{opacity: 1;
+}
+
+
+
+.vv{
+	position: relative;
+	top: 750px;
+	width: 100%;
+	min-height: 500px;
+	
+	text-align: center;
+	background-color: #38DCC8;
+
+}
+.d9{position: absolute;
+	top: 20px;
+	left: 34%;
+	font-size: 45px;
+	
+	border:solid 7px white;
+	width: 500px;
+	height: 65px;
+	color: white;
+}
+.table{font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 130px;
+	padding-left: 30%;
+	width: 450px;
+	min-height: 300px;
+	color: white;
+}
+.td{
+	text-align: center;
+
+}
+
+.td>button{margin-top: 30px;
+	margin-left: 33%;
+	width: 280px;
+	min-height: 40px;
+}
+.w1 {width: 300px;
+	min-height: 30px;
+	background-color: white;
+}
+.w1:hover {background-color:  #48C9B0;
+
+}
+.w2{width: 300px;
+	min-height: 30px;
+	background-color:  white;
+}
+.w2:hover {
+	background-color: #48C9B0;
+}
+.w3{width: 300px;
+	min-height: 30px;
+	background-color: white;
+	
+}
+.w3:hover {
+	background-color: #48C9B0; }
+	.w4{width: 300px;
+		height: 70px;
+		background-color: white ;
+	}
+	.w4:hover {
+		background-color: #48C9B0
+	}
+	.w5 {width: 300px;
+		height: 30px;
+		background-color:white ;
+		color: #48C9B0;
+	}
+	.w5:hover {
+		background-color:#48C9B0;
+		color: white;
+	}

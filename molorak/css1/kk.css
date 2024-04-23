@@ -1,0 +1,94 @@
+*{
+	padding:0;
+	margin: 0;
+	top: 0px;
+	right: 0; bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/cosmos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+#sun{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	
+}
+#mercury{
+	width: 182px;
+	height: 50px;
+	position: absolute;
+
+	animation: anim 5s infinite linear
+
+}
+#venus{animation: anim 8s infinite  linear;
+	width: 220px;
+	height:180px;
+	position: absolute;
+
+}
+
+#earth{animation: anim 7s infinite linear;
+	
+	width: 340px;
+	height:240px;
+	position: absolute;
+	
+
+}
+#mars{width: 400px;
+	height:240px;
+	position: absolute;
+	animation: anim  8s infinite linear;
+}
+#jupiter{
+	width:630px;
+	height:280px;
+	position: absolute;
+	animation: anim  10s infinite linear;
+}
+#saturn{width: 550px;
+	height:350px;
+	position: absolute;
+	animation: anim  9s infinite linear;
+
+}
+#uran{width: 520px;
+	height:220px;
+	position: absolute;
+	animation: anim  10s infinite linear;
+
+}
+#neptun{width: 660px;
+	height:240px;
+	position: absolute;
+	animation: anim  7s infinite linear;
+	animation: anim  6s infinite linear
+}
+#pluto{width: 700px;
+	height:250px;
+	position: absolute;
+	animation: anim  8s infinite linear;
+
+}
+@keyframes anim {
+	from{
+		transform: rotate(0deg);
+		;
+	}
+	to{
+		transform: rotate(
+			360deg);
+		
+	}
+}
+

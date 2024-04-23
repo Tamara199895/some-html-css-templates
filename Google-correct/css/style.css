@@ -1,0 +1,166 @@
+
+
+
+body{
+	
+
+	background:  #D5E7BA;
+}
+.g1,.o1,.o2,.g2,.l,.e{
+	height: 240px;
+	width: 250px;
+	border-radius: 40px;
+	border:black solid 1px;
+	font-size: 100px;
+
+}
+.div {
+
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: auto;
+	margin: auto;
+
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 0 0 3px white, 0 0 5px #0000FF;
+}
+
+@keyframes a1{
+	0%{
+		top: 20px;
+		left: 108px;
+		transform:rotate(0deg);
+	}
+	25%{
+		top: 50;
+		left:400px;
+		background: yellow;
+	}
+	45%{background:#851A1F;
+		top: 500px;
+		left:300px;
+		transform: rotate(180deg) ;
+	}
+	100%{background:#E75383 ;
+		top: 190px;
+		left:18%;
+		transform: rotate(350deg);
+		
+	}
+}
+
+@keyframes a2{
+	0%{  
+		bottom: 0;
+		background: lightskyblue;
+		left: 20px;
+	}
+	35%{color: brown;
+		bottom: 50px;
+		right: 350px;
+	}
+	70%{
+		bottom:50px; 
+		background:#A000AE;
+		right: 650px;
+	}
+	100%{background: aqua;
+		top: 191px;
+		left:3%;  
+	}
+}
+.o1{
+	position: absolute;
+	animation: a1 5s 1 ;
+	animation-fill-mode: forwards;
+}
+.g1{
+	position:absolute;
+	animation: a2 3s 1 ;
+	animation-fill-mode: forwards;
+}
+
+@keyframes a3{
+	0%   {background-color: #B2ACC7;}
+	25%  {background-color: green;
+		transform: rotate(180deg);}
+		50%  {background-color: #4ABFC7;}
+		100% {background-color: #160085;}
+	}
+	.o2{position: absolute;
+		top: 190px;
+		left:37%;
+		animation: a3  4s infinite ;
+	}
+
+
+	@keyframes a6{
+		0%   {background-color: #B2ACC7;
+			transform: rotate(10deg);}
+			25%  {background-color: green;
+				transform: rotate(200deg);
+			}
+			50%  {background-color: #4ABFC7;
+				transform: rotate(300deg);}
+				100% {background-color: #160085;}
+
+				
+			}
+			.l{position: absolute;
+				top: 190px;
+				left:64%;
+
+				animation: a6  4s infinite ;
+			}
+
+			@keyframes a7{
+				0%{
+					background: #EFF085;
+					top: 0;
+					right: 12px;		
+				}
+				
+				
+				35%{color: brown;
+					top: 30px;
+					right: 250px;
+				}
+				70%{
+					top:450px;
+					left: 500px;
+				}
+				100%{background: #A56ADD;
+					top: 191px;
+					left: 50%; 
+					transform:rotate(10deg);
+				}
+
+			}
+
+			.g2 {
+				position: absolute;
+				animation: a7  3s 1 linear ;
+				animation-fill-mode: forwards  ;
+			}
+			@keyframes a8{
+				0%{
+					bottom:10px;
+					right: : 30px;
+					transform:rotate(0deg);
+				}
+				
+				
+				100%{background:#E75383 ;
+					top: 190px;
+					left:80%;
+					
+					
+				}
+			}
+			.e{position: absolute;
+				animation: a8 8s 1;
+				animation-fill-mode: forwards;
+			}
